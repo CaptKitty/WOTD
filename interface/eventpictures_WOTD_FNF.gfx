@@ -1,0 +1,114 @@
+spriteTypes = {
+	
+#Flora & Fauna 1 Event Pictures
+
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_KOMODO_DRAGON"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_KOMODO_DRAGON.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_MANDRILL_MONKEY"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_MANDRILL_MONKEY.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_MOA_HAAST_MAORI"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_MOA_HAAST_MAORI.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_OCELOT"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_OCELOT.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_ORANGUTAN"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_ORANGUTAN.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_PUERTO_RICAN_PARROT"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_PUERTO_RICAN_PARROT.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_RED_KANGAROO"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_RED_KANGAROO.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_RED_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_RED_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_ROTHSCHILD_GIRAFFE"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_ROTHSCHILD_GIRAFFE.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_SPIXS_MACAW"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_SPIXS_MACAW.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_HOATZIN"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_HOATZIN.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_PANDA_DIPLOMACY"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_PANDA_DIPLOMACY.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "WOTD_FNF_GIANT_PANDA"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		allwaystransparent = yes
+	}
+
+#Flora & Fauna 2 Event Pictures
+
+	
+}

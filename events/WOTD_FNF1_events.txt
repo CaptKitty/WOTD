@@ -1,0 +1,152 @@
+namespace = wotd_fnf
+
+#001 - Panda - Rediscovery of “DaXiongMao”
+#002 - Komodo Dragon - Here be Dragons
+
+
+#001 - Panda - Rediscovery of “DaXiongMao”
+country_event = {
+	id = wotd_fnf.001
+	title = wotd_fnf.001.title
+	desc = wotd_fnf.001.desc
+	picture = WOTD_FNF_GIANT_PANDA
+
+
+	# Like the idiom goes: “If you observe no taboos, you will see gold covering the ground.”
+	option = {
+		name = wotd_fnf.001.opta
+	}	
+	# The Dwarf knows its place. Right?
+	option = {
+		name = wotd_fnf.001.optb
+	}	
+	# Joseon, our closest subject. The Seonbi will treat the animal with respect.
+	option = {
+		name = wotd_fnf.001.optc								   
+	}	
+	# Share the pandas among our loyal tributaries.
+	option = {
+		name = wotd_fnf.001.optd								   
+	}	
+	# Decide based on $MONARCH$’s preference of concubines.
+	option = {
+		name = wotd_fnf.001.opte								   
+	}	
+	# Panda diplomacy? That’s beneath us.
+	option = {
+		name = wotd_fnf.001.optf								   
+	}
+}
+
+#002 - Komodo Dragon - Here be Dragons
+country_event = {
+	id = wotd_fnf.002
+	title = wotd_fnf.002.title
+	desc = wotd_fnf.002.desc
+	picture = WOTD_FNF_KOMODO_DRAGON
+	
+	# It sure would make for a fine trophy.
+	option = {
+		name = wotd_fnf.002.opta
+	}
+	# A truly inhospitable area.
+	option = {
+		name = wotd_fnf.002.optb
+	}
+	# True to our heritage.
+	option = {
+		name = wotd_fnf.002.optc
+	}
+	# Tell them God created these giant lizards.
+	option = {
+		name = wotd_fnf.002.optd
+	}
+}	
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
+country_event = {
+	id = wotd_fnf.???
+	title = wotd_fnf.???.title
+	desc = wotd_fnf.???.desc
+	picture = 
+	
+	# 
+	option = {
+		name = wotd_fnf.???.opta
+	}
+}
