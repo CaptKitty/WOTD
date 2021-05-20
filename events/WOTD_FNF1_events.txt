@@ -2,7 +2,16 @@ namespace = wotd_fnf
 
 #001 - Panda - Rediscovery of “DaXiongMao”
 #002 - Komodo Dragon - Here be Dragons
-
+#003 - Mandrill Monkey - Rampant Mandrill Horde
+#004 - Moa Haast Maori - Moa and the Maori
+#005 - Ocelot -  A Painter’s Passing Fancy?
+#006 - Orangutan - Cook Lost in the Jungle
+#007 - Puerto Rican Parrot - A Not So Holy Saviour
+#008 - Red Kangaroo - An Etymological Mistake or Farce?
+#009 - Red Panda - Huohu - Red Panda’s Good Luck Charm
+#010 - Rothschild Giraffe - Return of the ‘Camelopards’
+#011 - Spix’s Macaw - Exploitation of Sao’s Francisco’s Caatinga - Spix’s Dilemma
+#012 - Hoatzin - Stinkbird Hoatzin
 
 #001 - Panda - Rediscovery of “DaXiongMao”
 country_event = {
@@ -62,6 +71,178 @@ country_event = {
 		name = wotd_fnf.002.optd
 	}
 }	
+
+#003 - Mandrill Monkey - Rampant Mandrill Horde
+country_event = {
+	id = wotd_fnf.003
+	title = wotd_fnf.003.title
+	desc = wotd_fnf.003.desc
+	picture = WOTD_FNF_MANDRILL_MONKEY
+	
+	# Hide your offspring, hide your spouse!
+	option = {
+		name = wotd_fnf.003.opta
+	}
+	# Fight back the horde! 
+	option = {
+		name = wotd_fnf.003.optb
+	}
+	# A Horde you say?
+	option = {
+		name = wotd_fnf.003.optc
+	}
+}
+
+#004 - Moa Haast Maori - Moa and the Maori
+country_event = {
+	id = wotd_fnf.004
+	title = wotd_fnf.004.title
+	desc = wotd_fnf.004.desc
+	picture = WOTD_FNF_MOA_HAAST_MAORI
+	
+	# We’re just here to resupply. We’ll embark at sunset.
+	option = {
+		name = wotd_fnf.004.opta
+	}
+	# Giant birds you say? Taking a short break shouldn’t hurt.
+	option = {
+		name = wotd_fnf.004.optb
+	}
+}
+
+#005 - Ocelot -  A Painter’s Passing Fancy?
+country_event = {
+	id = wotd_fnf.005
+	title = wotd_fnf.005.title
+	desc = wotd_fnf.005.desc
+	picture = WOTD_FNF_OCELOT
+	
+	# Allow Babou, the Ocelot, to return home with the painter.
+	option = {
+		name = wotd_fnf.005.opta
+	}
+	# Sorry buddy, the animal is getting sold off. Captain’s orders.
+	option = {
+		name = wotd_fnf.005.optb
+	}
+}
+
+#006 - Orangutan - Cook Lost in the Jungle
+country_event = {
+	id = wotd_fnf.006
+	title = wotd_fnf.006.title
+	desc = wotd_fnf.006.desc
+	picture = WOTD_FNF_ORANGUTAN
+	
+	# Blame the natives for our cook’s  disappearance.
+	option = {
+		name = wotd_fnf.006.opta
+	}
+	# They might have wandered off due to madness induced by a tropical disease.
+	option = {
+		name = wotd_fnf.006.optb
+	}
+	# Hunt the “People of the Forest”.
+	option = {
+		name = wotd_fnf.006.optc
+	}
+}
+
+#007 - Puerto Rican Parrot - A Not So Holy Saviour
+country_event = {
+	id = wotd_fnf.007
+	title = wotd_fnf.007.title
+	desc = wotd_fnf.007.desc
+	picture = WOTD_FNF_PUERTO_RICAN_PARROT
+	
+	# For America must be Christian! So blood must flow.
+	option = {
+		name = wotd_fnf.007.opta
+	}
+}
+
+#008 - Red Kangaroo - An Etymological Mistake or Farce?
+country_event = {
+	id = wotd_fnf.008
+	title = wotd_fnf.008.title
+	desc = wotd_fnf.008.desc
+	picture = WOTD_FNF_RED_KANGAROO
+	
+	# ‘Kangaroo’. Such a majestic name.
+	option = {
+		name = wotd_fnf.008.opta
+	}
+	# Maybe we should go back and ask?
+	option = {
+		name = wotd_fnf.008.optb
+	}
+}
+
+#009 - Red Panda - Huohu - Red Panda’s Good Luck Charm
+country_event = {
+	id = wotd_fnf.009
+	title = wotd_fnf.009.title
+	desc = wotd_fnf.009.desc
+	picture = WOTD_FNF_RED_PANDA
+	
+	# Red. How proper.
+	option = {
+		name = wotd_fnf.009.opta
+	}
+}
+
+#010 - Rothschild Giraffe - Return of the ‘Camelopards’
+country_event = {
+	id = wotd_fnf.010
+	title = wotd_fnf.010.title
+	desc = wotd_fnf.010.desc
+	picture = WOTD_FNF_ROTHSCHILD_GIRAFFE
+	
+	# Cameleopard. Now that’s a name I can get behind. Send them on their way.
+	option = {
+		name = wotd_fnf.010.opta
+	}
+	# Escort these “missionaries” back to Jerusalem. 
+	option = {
+		name = wotd_fnf.010.optb
+	}
+}
+
+#011 - Spix’s Macaw - Exploitation of Sao’s Francisco’s Caatinga - Spix’s Dilemma
+country_event = {
+	id = wotd_fnf.011
+	title = wotd_fnf.011.title
+	desc = wotd_fnf.011.desc
+	picture = WOTD_FNF_SPIXS_MACAW
+	
+	# Animal husbandry has worked in the past. Why wouldn’t it now?
+	option = {
+		name = wotd_fnf.011.opta
+	}	
+	# A bold plan; The irrigation of Sao Francisco.
+	option = {
+		name = wotd_fnf.011.opta
+	}	
+	# Inaction is also a form of action. Tell them to venture further inland.
+	option = {
+		name = wotd_fnf.011.opta
+	}
+}
+
+#012 - Hoatzin - Stinkbird Hoatzin
+country_event = {
+	id = wotd_fnf.012
+	title = wotd_fnf.012.title
+	desc = wotd_fnf.012.desc
+	picture = 
+	
+	# Bugger. 
+	option = {
+		name = wotd_fnf.012.opta
+	}
+}
+
+#
 country_event = {
 	id = wotd_fnf.???
 	title = wotd_fnf.???.title
@@ -73,6 +254,8 @@ country_event = {
 		name = wotd_fnf.???.opta
 	}
 }
+
+#
 country_event = {
 	id = wotd_fnf.???
 	title = wotd_fnf.???.title
@@ -84,6 +267,8 @@ country_event = {
 		name = wotd_fnf.???.opta
 	}
 }
+
+#
 country_event = {
 	id = wotd_fnf.???
 	title = wotd_fnf.???.title
@@ -95,6 +280,8 @@ country_event = {
 		name = wotd_fnf.???.opta
 	}
 }
+
+#
 country_event = {
 	id = wotd_fnf.???
 	title = wotd_fnf.???.title
@@ -106,6 +293,8 @@ country_event = {
 		name = wotd_fnf.???.opta
 	}
 }
+
+#
 country_event = {
 	id = wotd_fnf.???
 	title = wotd_fnf.???.title
@@ -117,28 +306,8 @@ country_event = {
 		name = wotd_fnf.???.opta
 	}
 }
-country_event = {
-	id = wotd_fnf.???
-	title = wotd_fnf.???.title
-	desc = wotd_fnf.???.desc
-	picture = 
-	
-	# 
-	option = {
-		name = wotd_fnf.???.opta
-	}
-}
-country_event = {
-	id = wotd_fnf.???
-	title = wotd_fnf.???.title
-	desc = wotd_fnf.???.desc
-	picture = 
-	
-	# 
-	option = {
-		name = wotd_fnf.???.opta
-	}
-}
+
+#
 country_event = {
 	id = wotd_fnf.???
 	title = wotd_fnf.???.title
