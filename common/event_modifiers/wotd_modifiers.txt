@@ -1,0 +1,11 @@
+wotd_komodo_dragon_trophy = {
+    local_unrest = 8
+}
+
+wotd_missionary = {
+    global_missionary_strength = 0.02
+}
+
+wotd_ugly_bird = {
+    local_friendly_movement_speed = -0.33
+}

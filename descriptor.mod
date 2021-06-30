@@ -1,6 +1,6 @@
 name="Way of the Dodo"
 version="Alpha v1.0"
-path="mod/WOTD"
+path="mod/wotd"
 tags={
 	"Technologies"
 	"Religion"

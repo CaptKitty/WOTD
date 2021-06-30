@@ -21,6 +21,7 @@ country_event = {
 	picture = WOTD_FNF_GIANT_PANDA
 
 
+
 	# Like the idiom goes: “If you observe no taboos, you will see gold covering the ground.”
 	option = {
 		name = wotd_fnf.001.opta
@@ -53,10 +54,77 @@ country_event = {
 	title = wotd_fnf.002.title
 	desc = wotd_fnf.002.desc
 	picture = WOTD_FNF_KOMODO_DRAGON
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	trigger = {
+		AND = {
+			OR = {
+				owns = 632
+				owns = 633
+				633 = {
+					is_strongest_trade_power = ROOT
+				}
+			}
+			NOT = {
+				632 = {
+					owner = {
+						NOT = { tag = ROOT }
+						OR = {
+							has_idea_group = exploration_ideas
+							has_idea_group = expansion_ideas
+						}
+					}
+				}
+				633 = {
+					owner = {
+						NOT = { tag = ROOT }
+						OR = {
+							has_idea_group = exploration_ideas
+							has_idea_group = expansion_ideas
+						}
+					}
+				}
+				has_country_flag = wotd_fnf_002_flag
+			}
+		}	
+	}
 	
 	# It sure would make for a fine trophy.
 	option = {
 		name = wotd_fnf.002.opta
+		trigger = {
+			OR = {
+				owns = 632
+				owns = 633
+			}
+		}
+		if = {
+			limit = {
+				owns = 633
+			}
+			633 = {
+				add_province_modifier = {
+					name = wotd_komodo_dragon_trophy
+					duration = 3650
+				}
+			}
+			add_prestige = 3
+		}
+		if = {
+			limit = {
+				owns = 632
+			}
+			632 = {
+				add_province_modifier = {
+					name = wotd_komodo_dragon_trophy
+					duration = 3650
+				}
+			}
+			add_prestige = 3
+		}
+		set_country_flag = wotd_fnf_002_flag
 	}
 	# A truly inhospitable area.
 	option = {
@@ -65,10 +133,68 @@ country_event = {
 	# True to our heritage.
 	option = {
 		name = wotd_fnf.002.optc
+		trigger = {
+			OR = {
+				tag = WLS
+				tag = ASS
+				tag = BHU
+				tag = QNG
+				tag = ICE
+				culture_group = east_asian
+			}
+		}
+		add_prestige = 5
+		if = {
+			limit = {
+				indonesia_region = {
+					owned_by = ROOT
+				}	
+			}
+			timor_area = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+		set_country_flag = wotd_fnf_002_flag
 	}
 	# Tell them God created these giant lizards.
 	option = {
 		name = wotd_fnf.002.optd
+		trigger = {
+			has_idea_group = religious_ideas
+		}
+		if = {
+			limit = {
+				632 = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}
+				633 = {
+					NOT = {
+						owned_by = ROOT
+					}
+				}	
+			}
+			random = {
+  				chance = 50
+  				633 = {
+    				owner = {
+      					change_religion = ROOT
+    				}
+  				}
+			}
+			else = {
+				add_country_modifier = {
+					name = wotd_missionary
+					duration = 3650
+				}
+			}
+		}
+		set_country_flag = ROOT
 	}
 }	
 
@@ -99,31 +225,101 @@ country_event = {
 	title = wotd_fnf.004.title
 	desc = wotd_fnf.004.desc
 	picture = WOTD_FNF_MOA_HAAST_MAORI
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	trigger = {
+		OR = {
+			owns = 1106
+			owns = 2739
+			owns = 1108
+			owns = 1107
+			owns = 2737
+			owns = 2730
+			owns = 1109
+			owns = 1246
+		}
+		NOT = {
+			capital_scope = {
+				superregion = oceania_superregion
+			}
+			has_country_flag = wotd_fnf_004_fired
+		}
+	}
 	
 	# We’re just here to resupply. We’ll embark at sunset.
 	option = {
 		name = wotd_fnf.004.opta
+		change_innovativeness = 0.25
+		set_country_flag = wotd_fnf_004_fired
 	}
 	# Giant birds you say? Taking a short break shouldn’t hurt.
 	option = {
 		name = wotd_fnf.004.optb
+		set_country_flag = wotd_fnf.004_moa_flag
+		add_treasury = -50
+		change_innovativeness = 0.5
+		set_country_flag = wotd_fnf_004_fired
 	}
 }
 
 #005 - Ocelot -  A Painter’s Passing Fancy?
-country_event = {
+province_event = {
 	id = wotd_fnf.005
 	title = wotd_fnf.005.title
 	desc = wotd_fnf.005.desc
 	picture = WOTD_FNF_OCELOT
+
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			region = upper_peru_region
+			region = brazil_region
+			region = peru_region
+			region = colombia_region
+			region = carribeans_region
+			region = central_america_region
+			region = mexico_region
+		}
+		FROM = {
+			NOT = {
+				capital_scope = {
+					continent = north_america
+				}
+				capital_scope = {
+					continent = south_america
+				}
+			}
+			NOT = {
+				has_country_flag = wotd_fnf_005_ocelot_flag
+			}
+		}
+	}
 	
 	# Allow Babou, the Ocelot, to return home with the painter.
 	option = {
 		name = wotd_fnf.005.opta
+		FROM = {
+			define_advisor = {
+				type = artist
+				skill = 1
+				cost_multiplier = 0.5
+				religion = FROM
+				culture = FROM
+			}
+			set_country_flag = wotd_fnf_005_ocelot_flag
+		}
 	}
 	# Sorry buddy, the animal is getting sold off. Captain’s orders.
 	option = {
 		name = wotd_fnf.005.optb
+		FROM = {
+			set_country_flag = wotd_fnf_005_ocelot_flag
+			add_treasury = 5
+		}
 	}
 }
 
@@ -154,10 +350,48 @@ country_event = {
 	title = wotd_fnf.007.title
 	desc = wotd_fnf.007.desc
 	picture = WOTD_FNF_PUERTO_RICAN_PARROT
+
+	fire_only_once = yes
+
+	trigger = {
+		has_leader = "Cristóbal Colón"
+		492 = {
+			has_discovered = ROOT
+		}
+	}
 	
 	# For America must be Christian! So blood must flow.
 	option = {
 		name = wotd_fnf.007.opta
+		492 = {
+			change_native_size = -2500
+		}
+		if = {
+            limit = {
+                windward_islands_area = {
+                    has_discovered = ROOT
+                }
+            }
+            windward_islands_area = {
+                limit = {
+                    has_discovered = ROOT
+                }
+                change_native_size = -2500
+            }
+		}
+		if = {
+            limit = {
+                leeward_islands_area = {
+                    has_discovered = ROOT
+                }
+            }
+            leeward_islands_area = {
+                limit = {
+                    has_discovered = ROOT
+                }
+                change_native_size = -2500
+            }
+		}
 	}
 }
 
@@ -167,16 +401,38 @@ country_event = {
 	title = wotd_fnf.008.title
 	desc = wotd_fnf.008.desc
 	picture = WOTD_FNF_RED_KANGAROO
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	trigger = {
+		australia_region = {
+			has_port = yes
+			has_discovered = ROOT
+		}
+		NOT = {
+			has_country_flag = wotd_fnf_008_flag
+		}
+	}
 	
 	# ‘Kangaroo’. Such a majestic name.
 	option = {
 		name = wotd_fnf.008.opta
+		add_prestige = -3
+		set_country_flag = wotd_fnf_008_flag
 	}
 	# Maybe we should go back and ask?
 	option = {
 		name = wotd_fnf.008.optb
+		add_treasury = -20
+		every_neighbor_province = {
+			NOT = { has_port = yes }
+			discover_country = ROOT
+		}
+		set_country_flag = wotd_fnf_008_flag
 	}
-}
+}			
 
 #009 - Red Panda - Huohu - Red Panda’s Good Luck Charm
 country_event = {
@@ -197,14 +453,65 @@ country_event = {
 	title = wotd_fnf.010.title
 	desc = wotd_fnf.010.desc
 	picture = WOTD_FNF_ROTHSCHILD_GIRAFFE
+
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	trigger = {
+		OR = {
+			AND = {
+				OR = {
+					tag = PAP
+					is_papal_controller = yes
+				}
+				OR = {
+					mashriq_region = {
+						owned_by = ROOT
+					}
+					maghreb_region = {
+						owned_by = ROOT
+					}
+					is_rival = MAM
+				}
+				exists = ETH
+				NOT = {
+					has_country_flag = wotd_fnf.010_flag
+				}
+			}
+			AND = {
+				religion = coptic
+				owns = 2313
+				exists = ETH
+				NOT = {
+					tag = ETH
+					has_country_flag = wotd_fnf.010_flag
+				}
+			}
+		}
+	}
 	
 	# Cameleopard. Now that’s a name I can get behind. Send them on their way.
 	option = {
 		name = wotd_fnf.010.opta
+		add_prestige = 5
+		add_opinion = {
+			who = ETH
+			modifier = opinion_giraffe
+		}
+		set_country_flag = wotd_fnf.010_flag
 	}
 	# Escort these “missionaries” back to Jerusalem. 
 	option = {
 		name = wotd_fnf.010.optb
+		set_country_flag = wotd_fnf_010_flag
+		add_opinion = {
+			who = ETH
+			modifier = opinion_missionary
+		}
+		horn_of_africa_region = {
+			discover_country = ROOT
+		}
 	}
 }
 
@@ -230,15 +537,99 @@ country_event = {
 }
 
 #012 - Hoatzin - Stinkbird Hoatzin
-country_event = {
+province_event = {
 	id = wotd_fnf.012
 	title = wotd_fnf.012.title
 	desc = wotd_fnf.012.desc
 	picture = 
+	is_triggered_only = yes
+
+	trigger = {
+		OR = {
+			region = brazil_region
+			area = moxos_area
+			area = beni_area
+			area = ofaie_area
+			area = kuntisuyu_area
+			area = ucayali_area
+			area = iquitos_area
+			region = colombia_region
+		}
+		FROM = {
+			NOT = {
+				capital_scope = {
+					continent = north_america
+				}
+				capital_scope = {
+					continent = south_america
+				}
+			}
+			NOT = {
+				has_country_flag = wotd_fnf.012_flag
+			}
+		}
+	}
 	
 	# Bugger. 
 	option = {
 		name = wotd_fnf.012.opta
+		set_country_flag = wotd_fnf.012_flag
+		brazil_region = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		colombia_region = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		iquitos_area = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		moxos_area = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		beni_area = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		ofaie_area = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		kuntisuyu_area = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
+		ucayali_area = {
+			type = all
+			add_province_modifier = {
+				name = wotd_ugly_bird
+				duration = 90
+			}
+		}
 	}
 }
 
