@@ -206,6 +206,30 @@ country_event = {
 	option = {
 		name = wotd_fnf.010.optb
 	}
+	# Cameleopard. Now that’s a name I can get behind. Send them on their way.
+	option = {
+		name = wotd_fnf.010.optc
+	}
+	# Escort these “missionaries” back to Jerusalem. 
+	option = {
+		name = wotd_fnf.010.optd
+	}
+	# Cameleopard. Now that’s a name I can get behind. Send them on their way.
+	option = {
+		name = wotd_fnf.010.opte
+	}
+	# Escort these “missionaries” back to Jerusalem. 
+	option = {
+		name = wotd_fnf.010.optf
+	}
+	# Cameleopard. Now that’s a name I can get behind. Send them on their way.
+	option = {
+		name = wotd_fnf.010.optg
+	}
+	# Escort these “missionaries” back to Jerusalem. 
+	option = {
+		name = wotd_fnf.010.opth
+	}
 }
 
 #011 - Spix’s Macaw - Exploitation of Sao’s Francisco’s Caatinga - Spix’s Dilemma
@@ -270,14 +294,14 @@ country_event = {
 
 #
 country_event = {
-	id = wotd_fnf.???
-	title = wotd_fnf.???.title
-	desc = wotd_fnf.???.desc
-	picture = 
+	id = wotd_fnf.015
+	title = wotd_fnf.015.title
+	desc = wotd_fnf.015.desc
+	picture = WOTD_FNF_DICKBUTT
 	
 	# 
 	option = {
-		name = wotd_fnf.???.opta
+		name = wotd_fnf.015.opta
 	}
 }
 
