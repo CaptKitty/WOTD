@@ -6,6 +6,7 @@ spriteTypes = {
 		name = "WOTD_FNF_GIANT_PANDA"
 		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
 		allwaystransparent = yes
+		tooltipText = "WOTD_FNF_GIANT_PANDA"
 	}
 	spriteType = {
 		name = "WOTD_FNF_KOMODO_DRAGON"
@@ -68,8 +69,8 @@ spriteTypes = {
 		allwaystransparent = yes
 	}
 	spriteType = {
-		name = "WOTD_FNF_GIANT_PANDA"
-		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_GIANT_PANDA.dds"
+		name = "WOTD_FNF_DICKBUTT"
+		texturefile = "gfx/event_pictures/FNF1_event_pictures/WOTD_FNF_DICKBUTT.dds"
 		allwaystransparent = yes
 	}
 	spriteType = {
