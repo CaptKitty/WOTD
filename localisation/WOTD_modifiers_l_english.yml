@@ -1,0 +1,9 @@
+l_english:
+ panda_diplomacy:0 "Panda Diplomacy"
+ desc_panda_diplomacy:0 "Our Emperor has decided to somehow employ pandas into our diplomatic ranks, thereby reviving an age-old custom of sending these ‘graceful’ beasts to our loyal subjects as a sign of our good graces."
+ panda_pavilion_cheap:0 "Panda Pavilion"
+ desc_panda_pavilion_cheap:0 "Ever since we received a pair of panda cubs from the Emperor our courtiers, those that don’t shovel dung, seem somewhat more elated. Whether that was worth constructing an entire pavilion and bamboo plantation is… doubtful. "
+ panda_pavilion_moderate:0 "Panda Pavilion"
+ desc_panda_pavilion_moderate:0 "Ever since we received a pair of panda cubs from the Emperor our courtiers, those that don’t shovel dung, seem somewhat more elated. Still shipping the bamboo to our court has proven costly and certainly not worth it. At least the Emperor is happy."
+ panda_pavilion_expensive:0 "Panda Pavilion"
+ desc_panda_pavilion_expensive:0 "The Emperor surely has gone mad. Why did he send panda’s here? Our peasants don’t even eat rice, and bamboo doesn’t grow here. These two cubs, cute as they may be, are a drain on our finances and a thorn in our side."

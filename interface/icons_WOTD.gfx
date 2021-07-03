@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "panda_diplomacy_icon"
+		texturefile = "gfx//interface//WOTD_province_icons//panda_province_icon.dds"
+	}
+
+#	spriteType = {
+#		name = "privilege_revoke"
+#		texturefile = "gfx//interface//WOTD_province_icons//revoke_privilege_button.dds"
+#	}
+
+}
