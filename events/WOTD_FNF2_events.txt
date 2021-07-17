@@ -1,0 +1,307 @@
+namespace = wotd_fnf
+
+#021 - Steller's Sea Cow - Sea Cows Ahoy!
+
+#021 - Steller's Sea Cow - Sea Cows Ahoy!
+country_event = {
+	id = wotd_fnf.021
+	title = wotd_fnf.021.title
+	desc = wotd_fnf.021.desc
+	picture = WOTD_FNF_STELLERS_SEA_COW
+	
+	#fire_only_once = yes
+
+	trigger = {
+		OR = {
+			has_discovered = 1482
+			has_discovered = 1493
+			has_discovered = 1483
+			has_discovered = 1484
+			has_discovered = 1485
+			has_discovered = 1486
+			has_discovered = 1487
+			has_discovered = 1488
+			has_discovered = 1559
+			has_discovered = 1560
+			has_discovered = 1561
+			has_discovered = 1581
+			has_discovered = 1580
+			has_discovered = 1445
+			has_discovered = 1577
+			has_discovered = 1562
+		}
+		technology_group = western
+		NOT = { has_country_flag = wotd_sea_cows_ahoy }
+		NOT = ( has_global_flag = wotd_sea_cows_ahoy }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = wotd_sea_cows_ahoy
+		if = {
+			limit = {
+				calc_true_if = {
+					any_country = {
+						has_country_flag = wotd_sea_cows_ahoy
+					}
+					amount = 5
+				}
+			}
+			set_global_flag = wotd_sea_cows_ahoy
+		}
+	}
+
+	# Move on, there is more to explore!
+	option = {
+		name = wotd_fnf.021.opta
+	}	
+	# Stock up on meat for the long journey.
+	option = {
+		name = wotd_fnf.021.optb
+		add_country_modifier = {
+			name = wotd_sea_cow_meat
+			duration = 365
+		}
+	}
+	# Sell the “Mermaid Skeleton” to a foreign court.
+	option = {
+		name = wotd_fnf.021.optc
+		add_treasury = 10
+		random_country = {
+			limit = {
+				is_great_power = yes
+				NOT = {
+					is_rival = ROOT
+				}
+			}
+			add_treasury = -10
+			add_prestige = 5
+		}
+	}	
+	# Cows, you say? Would it make a good cheese?
+	option = {
+		name = wotd_fnf.021.optd
+		set_country_flag = wotd_Sea_Cow_Cheese_Efforts								   
+	}	
+}
+
+country_event = {
+	id = wotd_fnf.022
+	title = wotd_fnf.022.title
+	desc = wotd_fnf.022.desc
+	picture = WOTD_FNF_JAPANESE_GIANT_SALAMANDER
+	
+	#fire_only_once = yes
+
+	trigger = {
+		OR = {
+			owns = 1014
+			owns = 1017
+			owns = 1019
+			owns = 1018
+			owns = 1825
+			owns = 1820
+			owns = 1819
+			owns = 1830
+		}
+		OR = {
+			culture_group = japanese_g
+			culture_group = east_asian
+		}
+		NOT = { has_country_flag = wotd_man_sized_salamanders }
+		NOT = ( has_global_flag = wotd_man_sized_salamanders }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = wotd_man_sized_salamanders
+		if = {
+			limit = {
+				calc_true_if = {
+					any_country = {
+						has_country_flag = wotd_man_sized_salamanders
+					}
+					amount = 5
+				}
+			}
+			set_global_flag = wotd_man_sized_salamanders
+		}
+	}
+
+	option = {
+		name = wotd_fnf.022.opta
+		add_treasury = 50
+	}	
+	option = {
+		name = wotd_fnf.022.optb
+		random_owned_province = {
+			limit = {
+				OR = {
+					province_id = 1014
+					province_id = 1017
+					province_id = 1018
+					province_id = 1019
+					province_id = 1825
+					province_id = 1820
+					province_id = 1819
+					province_id = 1830
+				}
+			}
+			add_province_modifier = {
+				name = wotd_hamazaki_festival
+				duration = -1
+				picture = "hamazaki_festival_province_icon"
+			}
+		}
+	}
+	option = {
+		name = wotd_fnf.022.optc
+		capital_scope = {
+			add_province_modifier = {
+				name = wotd_hellbender
+				duration = 18250
+			}
+		}
+	}	
+}
+
+country_event = {
+	id = wotd_fnf.023
+	title = wotd_fnf.023.title
+	desc = wotd_fnf.023.desc
+	picture = WOTD_FNF_GOLDEN_LION_TAMARIN
+	
+	#fire_only_once = yes
+
+	trigger = {
+		OR = {
+			has_discovered = 2914
+			has_discovered = 2916
+			has_discovered = 2898
+			has_discovered = 2899
+			has_discovered = 2894
+			has_discovered = 765
+			has_discovered = 2896
+			has_discovered = 2895
+			has_discovered = 768
+			has_discovered = 2897
+			has_discovered = 2884
+			has_discovered = 2879
+			has_discovered = 2852
+			has_discovered = 2853
+			has_discovered = 2855
+			has_discovered = 777
+			has_discovered = 2858
+			has_discovered = 2859
+		}
+		technology_group = western
+		NOT = { has_country_flag = wotd_Thieving_Tamarins }
+		NOT = ( has_global_flag = wotd_Thieving_Tamarins }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = wotd_Thieving_Tamarins
+		if = {
+			limit = {
+				calc_true_if = {
+					any_country = {
+						has_country_flag = wotd_Thieving_Tamarins
+					}
+					amount = 5
+				}
+			}
+			set_global_flag = wotd_Thieving_Tamarins
+		}
+	}
+
+	option = {
+		name = wotd_fnf.023.opta
+		kill_leader = {
+			type = conquistador
+		}
+		create_conquistador = { tradition = 40 }
+	}	
+}
+
+country_event = {
+	id = wotd_fnf.024
+	title = wotd_fnf.024.title
+	desc = wotd_fnf.024.desc
+	picture = WOTD_FNF_CALIFORNIAN_CONDOR
+	
+	#fire_only_once = yes
+
+	trigger = {
+		OR = {
+			has_discovered = 2827
+			has_discovered = 814
+			has_discovered = 811
+			has_discovered = 810
+			has_discovered = 807
+			has_discovered = 2829
+			has_discovered = 808
+			has_discovered = 2830
+			has_discovered = 804
+			has_discovered = 2831
+			has_discovered = 802
+			has_discovered = 2947
+			has_discovered = 797
+			has_discovered = 2946
+			has_discovered = 2940
+			has_discovered = 795
+		}
+		technology_group = western
+		NOT = { has_country_flag = wotd_Californian_Condor }
+		NOT = ( has_global_flag = wotd_Californian_Condor }
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		set_country_flag = wotd_Californian_Condor
+		if = {
+			limit = {
+				calc_true_if = {
+					any_country = {
+						has_country_flag = wotd_Californian_Condor
+					}
+					amount = 5
+				}
+			}
+			set_global_flag = wotd_Californian_Condor
+		}
+	}
+
+	option = {
+		name = wotd_fnf.024.opta
+		random_owned_province = {
+			limit = {
+				region = peru_region
+				region = upper_peru_region
+			}
+			add_province_modifier = {
+				name = wotd_condor_creator
+				duration = 9125
+			}
+		}
+	}
+	option = {
+		name = wotd_fnf.024.optb
+		add_country_modifier = {
+			name = wotd_condor_destroyer
+			duration = 3650
+		}
+	}
+}

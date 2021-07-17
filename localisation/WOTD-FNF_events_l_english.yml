@@ -75,3 +75,34 @@
  wotd_fnf.0.title:0 ""
  wotd_fnf.0.desc:0 ""
  wotd_fnf.0.opta:0 ""
+
+
+ wotd_fnf.021.title:0 "Sea Cows Ahoy!"
+ wotd_fnf.021.desc:0 "The cold Northern winds have taken their toll on your crew, and the captain himself went to rest in his cabins after thinking he was imagining bobbing rocks along the coast. Till Mr. Steller, your barrelman, yelled: Whales!/nInstead of a pod of stranded whales, the animals later to be called sea cows, are large marine mammals that graze on the kelps and grasses in the shallow waters along the shores. And, before anyone could tell them, your crew, hungry for meat, loosed the boats from their moorings, and wielding harpoons went for the hunt./nFailing time and time again to target and separate a small calf from the herde. It took an entire day for the crew to slay a large bull, who was 9 meters in length, and the strength of a couple men just to keep it from moving. Its thick blubber proved too resilient for our ships harpoons, and the crew had to pin it down, waiting for eb to arrive to beach the animal before they could finally deliver the killing blow. /nThe red tough meat tastes of corned beef, and is apparently slow to spoil.  Its bones, tough as steel, and white in color./nBut, what to do with the rest of the herd?"
+ wotd_fnf.021.opta:0 "Move on, there is more to explore!"
+ wotd_fnf.021.optb:0 "Stock up on meat for the long journey."
+ wotd_fnf.021.optc:0 "Sell the 'Mermaid Skeleton' to a foreign court."
+ wotd_fnf.021.optd:0 "Cows, you say? Would it make a good cheese?"
+
+ wotd_sea_cow_meat:0 "Sea Cow Meat"
+
+ wotd_fnf.022.title:0 "Man-Sized Salamanders"
+ wotd_fnf.022.desc:0 "Giant Salamanders, by the Japanese called it “Osanshouo”, or “Giant Pepperfish”, inhabit the clear creeks and rivers of our dominion. Often called the “Crying Children of the Mountain” due to their cries resembling those of young children. These creatures, when threatened, exude a strong peppery smell that can be smelled from beneath the water surface. Celebrated for its longevity, it also looks the part: having more wrinkles than a 100 year old man. /nIn Japanese mythology, the Kappa; a mischievous yokai demon, is said to have its origin derived from this very bottom dweller. But, unlike its mythological counterpart, it won't try to lure us near the murky water and trick us by pulling us in. So, our children have nothing to fear."
+ wotd_fnf.022.opta:0 "Cultivate it for its medicinal value."
+ wotd_fnf.022.optb:0 "Create a festival to celebrate it."
+ wotd_fnf.022.optc:0 "Venture out to establish one to our Royal court. Call it Hellbender."
+
+ wotd_hellbender:0 "Hellbender"
+ wotd_hamazaki_festival:0 "Hamazaki Festival"
+
+ wotd_fnf.023.title:0 "Thieving Tamarins"
+ wotd_fnf.023.desc:0 "Our camp’s supplies seem to be dwindling at a frightening rate, and after checking everyone’s personal belongings for pilfering, we are none the wiser. Our conquistador, angered by his troops' supposed insolence, has taken it upon himself to personally guard the camp’s supplies. And, while less is being stolen, a person can only stay awake for so many hours before some shut-eye is needed. This whole endeavor has impeded our ability to properly navigate the terrain, and the morale in the camp is at a breaking point./nOne early morning, one of the soldiers spotted an orange shimmer among the supplies. Expecting to catch the thief in the act, he rushed onwards only to stumble and fall at his encounter with the trespasser. Before him is gathered a pack of golden-maned monkeys meticulously scavenging through the camp’s supplies. Which, at the sight of the soldier, scurried away deep into the forest. Yet, as the soldier reported on the nature of the thief, our paranoid conquistador flogged the man to within an inch of his life./nA few days later the monkeys were once again spotted, this time during communal dinner time under the view of the entire company. The soldiers, instead of focusing their frustrations on this troupe of monkeys have instead placed them on their incapable leader. Hopefully camp morale can be restored."
+ wotd_fnf.023.opta:0 "Time for a change in management. Who’s with me?"
+
+ wotd_fnf.024.title:0 "Condor: the King of Birds"
+ wotd_fnf.024.desc:0 "Condors are considered sacred animals by us and our neighbours, and tales of its preeminence have been told from California to the great Andean plateau high up above. According to the origin mythology of the Wiyot Indians, the Condor was the ancestor of their tribes. Other Californian tribes believe condors have healing powers, and Californian ancestral doctors frequently use condor feathers as part of their traditional medicine ceremonies. In the Quechua and Aymara cultures of South America, the Condor is a symbol of the sky, and is frequently represented in tribal art. The Mapuche people call Condor the King of Birds, and believe he embodies the four cardinal virtues of wisdom, justice, goodness, and leadership. While the Wiyot tribe of California say that the condor recreated mankind after “Above Old Man” wiped humanity out with a flood./nHowever, other tribes, such as California's Mono, viewed the condor as a destroyer, not a creator. They say that Condor seized humans, cut off their heads, and drained their blood so that it would flood Ground Squirrel's home. Condor then seized Ground Squirrel after he fled, but Ground Squirrel managed to cut off Condor's head when Condor paused to take a drink of the blood. According to the Yokut tribe, the condor sometimes ate the moon, causing the lunar cycle, and his wings caused eclipses. The Chumash tribe of Southern California believed that the condor was once a white bird, but it turned black when it flew too close to a fire."
+ wotd_fnf.024.opta:0 "As a creator."
+ wotd_fnf.024.optb:0 "As a destroyer."
+
+ wotd_condor_creator: "Temple of the Creator"
+ wotd_condor_destroyer: "Spirit of the Destroyer"

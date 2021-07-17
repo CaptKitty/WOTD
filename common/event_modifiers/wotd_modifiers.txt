@@ -9,3 +9,28 @@ wotd_missionary = {
 wotd_ugly_bird = {
     local_friendly_movement_speed = -0.33
 }
+
+
+
+
+
+
+
+
+wotd_sea_cow_meat = {
+    range = 0.15
+    naval_attrition = -0.1
+}
+wotd_hamazaki_festival = {
+    trade_goods_size = 0.25
+}
+wotd_hellbender = {
+    local_unrest = -1
+}
+wotd_condor_creator = {
+    trade_goods_size = 0.25
+    local_development_cost = -0.10
+}
+wotd_condor_destroyer = {
+    land_morale = 0.10
+}
